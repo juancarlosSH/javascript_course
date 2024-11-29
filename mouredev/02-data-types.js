@@ -1,7 +1,7 @@
 //Primitive data types
 
 // string
-let myName = 'Juan Carlos!';
+let myName = "Juan Carlos!";
 
 // integer
 let age = 25;
@@ -18,7 +18,7 @@ console.log(myFavoriteClass);
 let nullValue = null;
 
 // symbol
-let mySymbol = Symbol('mySymbol');
+let mySymbol = Symbol("mySymbol");
 
 // BigInt
 let bigInt = BigInt(8437558937589378957374875837894578347895734);
