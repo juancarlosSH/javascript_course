@@ -17,7 +17,7 @@ let myHeight = 1.83;
 let haveWork = true;
 let myFavoriteMovie;
 let myJob = null;
-let whySytmbol = Symbol("Anything");
+let whySymbol = Symbol("Anything");
 let aBigInt = BigInt(2626262626267237272727272727277227);
 
 // 4. Imprime por consola el valor de todas las variables
@@ -28,7 +28,7 @@ console.log("myHeight " + myHeight);
 console.log("haveWork " + haveWork);
 console.log("myFavoriteMovie " + myFavoriteMovie);
 console.log("myJob " + myJob);
-console.log(whySytmbol);
+console.log(whySymbol);
 console.log("aBigInt " + aBigInt);
 console.log("============================================");
 
@@ -39,7 +39,7 @@ console.log(typeof myHeight);
 console.log(typeof haveWork);
 console.log(typeof myFavoriteMovie);
 console.log(typeof myJob);
-console.log(typeof whySytmbol);
+console.log(typeof whySymbol);
 console.log(typeof aBigInt);
 console.log("============================================");
 
@@ -50,7 +50,7 @@ myHeight = 2.3;
 haveWork = false;
 myFavoriteMovie = null;
 myJob = undefined;
-whySytmbol = Symbol(23);
+whySymbol = Symbol(23);
 aBigInt = BigInt(true);
 
 console.log("myLastName " + myLastName);
@@ -58,7 +58,7 @@ console.log("myHeight " + myHeight);
 console.log("haveWork " + haveWork);
 console.log("myFavoriteMovie " + myFavoriteMovie);
 console.log("myJob " + myJob);
-console.log(whySytmbol);
+console.log(whySymbol);
 console.log("aBigInt " + aBigInt);
 console.log("============================================");
 // 7. A continuación, modifica los valores de las variables por otros de distinto tipo
@@ -68,7 +68,7 @@ myHeight = "Hernández";
 haveWork = null;
 myFavoriteMovie = false;
 myJob = Symbol(23);
-whySytmbol = undefined;
+whySymbol = undefined;
 aBigInt = 2.3;
 
 console.log("myLastName " + myLastName);
@@ -76,7 +76,7 @@ console.log("myHeight " + myHeight);
 console.log("haveWork " + haveWork);
 console.log("myFavoriteMovie " + myFavoriteMovie);
 console.log(myJob);
-console.log("whySytmbol " + whySytmbol);
+console.log("whySymbol " + whySymbol);
 console.log("aBigInt " + aBigInt);
 console.log("============================================");
 
