@@ -36,13 +36,13 @@ console.log(todos[0].text);
 // Especial case when the property is not found use the optional chaining operator (?).
 console.log(todos[0].lenguaje?.name);
 
-// Destructuring is the most used way to access the properties of an object.
+// Desctructuring is the most used way to access the properties of an object.
 // It is a way to extract multiple properties from an object and assign them to variables.
 // The order of the properties does not matter.
 const { name, age, type } = pet;
 console.log(name, age, type);
 
-// Destructuring with arrays
+// Desctructuring with arrays
 // The order of the elements is important.
 const [fruit1, fruit2] = array_fruits;
 console.log(fruit1, fruit2);
